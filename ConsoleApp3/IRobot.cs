@@ -2,15 +2,15 @@
 {
     internal interface IRobot
     {
-        string GetInfo()
+        public string GetInfo()
         {
             throw new NotImplementedException();
         }
-        List<string> GetComponents()
+        public List<string> GetComponents()
         {
             throw new NotImplementedException();
         }
-        string GetRobotType()
+        public string GetRobotType()
         {
             return "I am a simple robot.";
         }

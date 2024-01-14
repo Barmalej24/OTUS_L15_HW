@@ -2,11 +2,11 @@
 {
     internal interface IChargeable
     {
-        void Charge()
+        public void Charge()
         {
             throw new NotImplementedException();
         }
-        string GetInfo()
+        public string GetInfo()
         {
             throw new NotImplementedException();
         }

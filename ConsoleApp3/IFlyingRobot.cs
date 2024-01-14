@@ -2,7 +2,7 @@
 {
     internal interface IFlyingRobot : IRobot
     {
-        string GetRobotType()
+        public new string GetRobotType()
         {
             return "I am a flying robot.";
         }        

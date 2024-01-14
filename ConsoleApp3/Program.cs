@@ -10,8 +10,7 @@
             var w3 = new Quadcopter();
             Console.WriteLine(w1.GetRobotType());
             Console.WriteLine(w2.GetRobotType());
-            w3.Charge();
-            
+            w3.Charge();            
         }
     }
 }
